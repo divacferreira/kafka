@@ -1,4 +1,4 @@
-package com.valdir.paymentservice.config;
+package com.edvaldo.strproducer.config;
 
 import lombok.RequiredArgsConstructor;
 import org.apache.kafka.clients.admin.AdminClientConfig;
