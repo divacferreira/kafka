@@ -16,7 +16,7 @@ public class StringProducerResources {
     private final StringProducerService producerService;
 
     @PostMapping
-    public ResponseEntity<?> sendMessages(@RequestBody String message) {
+    public ResponseEntity<?> sendMessage(@RequestBody String message) {
         producerService.sendMessage(message);
         return ResponseEntity.status(HttpStatus.CREATED).build();
     }
